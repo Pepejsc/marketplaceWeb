@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <h2 class="my-3 ms-3">Marketplace</h2>
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link">Cerrar Sesion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class="text-center my-3">Crear Nuevo Producto</h2>
+        <form id="product-form" class="form-inline justify-content-center mb-4">
+            <input type="text" id="product-name" class="form-control mr-2" placeholder="Nombre del producto" required>
+            <input type="number" id="product-price" class="form-control mr-2" placeholder="Precio del producto" required>
+            <input type="text" id="product-description" class="form-control mr-2" placeholder="Descripcion del producto">
+            <button type="submit" class="btn btn-primary">Añadir Producto</button>
+        </form>
+        <ul id="product-list" class="list-group"></ul>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

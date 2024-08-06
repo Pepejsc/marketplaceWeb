@@ -1,0 +1,13 @@
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
