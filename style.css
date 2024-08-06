@@ -11,3 +11,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+.navbar-brand h2 {
+    margin-left: 15px; /* Ajusta este valor según sea necesario */
+}
